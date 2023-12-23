@@ -1,18 +1,20 @@
-﻿using System;
-using BepInEx;
+﻿using BepInEx;
 using BepInEx.Unity.IL2CPP;
 using HarmonyLib;
 using HC;
 using HC.Scene;
 
-namespace HC_HideLanguageSelector
+namespace HideLanguageSelector
 {
     [BepInPlugin(GUID, DisplayName, Version)]
-    public class HideLanguageSelector : BasePlugin
+    [BepInProcess("HoneyCome")]
+    [BepInProcess("HoneyComeccp")]
+    [BepInIncompatibility("HideLanguageSelector")]
+    public class HideLanguageSelectorPlugin : BasePlugin
     {
-        public const string GUID = "HideLanguageSelector";
+        public const string GUID = "HC_HideLanguageSelector";
         public const string DisplayName = "Hide language selection in title menu";
-        public const string Version = "1.0";
+        public const string Version = "1.1";
 
         public override void Load()
         {
