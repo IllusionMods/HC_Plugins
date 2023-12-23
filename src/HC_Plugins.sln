@@ -4,6 +4,10 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HC_HideLanguageSelector", "HC_HideLanguageSelector\HC_HideLanguageSelector.csproj", "{6A4B92A8-69EE-4D58-9F77-1467C7F52497}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HC_Studio_TitleSkip", "HC_StudioTitleSkip\HC_Studio_TitleSkip.csproj", "{2293FA94-7863-496C-A80B-DAEEC4A84E0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HC_Studio_HideLanguageSelector", "HC_StudioHideLanguageSelector\HC_Studio_HideLanguageSelector.csproj", "{17DC5379-AF43-48D4-812A-DAA12F97C2DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +18,14 @@ Global
 		{6A4B92A8-69EE-4D58-9F77-1467C7F52497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A4B92A8-69EE-4D58-9F77-1467C7F52497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A4B92A8-69EE-4D58-9F77-1467C7F52497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2293FA94-7863-496C-A80B-DAEEC4A84E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2293FA94-7863-496C-A80B-DAEEC4A84E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2293FA94-7863-496C-A80B-DAEEC4A84E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2293FA94-7863-496C-A80B-DAEEC4A84E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DC5379-AF43-48D4-812A-DAA12F97C2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DC5379-AF43-48D4-812A-DAA12F97C2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DC5379-AF43-48D4-812A-DAA12F97C2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DC5379-AF43-48D4-812A-DAA12F97C2DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
